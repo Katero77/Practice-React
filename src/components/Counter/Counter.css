@@ -1,0 +1,48 @@
+.row{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid black;
+  padding: 10px;
+  align-items: center;
+}
+
+.block{
+  border: 1px solid black;
+  border-bottom: 3px solid black;
+}
+
+.block-header{
+  font-weight: bold;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.flex-column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.display{
+  border: 1px solid orange;
+  color: white;
+  background-color: brown;
+  padding: 20px;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.counter{
+  width: 450px;
+  margin: 0 auto;
+}
+
+.input{
+  width: 80%;
+}
+
+.paragraph{
+  margin: 10px 0;
+  text-align: center;
+  line-height: 1.4;
+}
